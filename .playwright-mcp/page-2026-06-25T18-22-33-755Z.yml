@@ -1,0 +1,38 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: New
+      - text: Chat with Claude Fable 5, GPT-5.5, Gemini 3.1 Pro & more — all in one place, one subscription.
+    - link "Try Izzedo Free →" [ref=e5] [cursor=pointer]:
+      - /url: https://www.izzedo.chat/?ref=marko
+  - navigation [ref=e6]:
+    - link "QA Playground" [ref=e8] [cursor=pointer]:
+      - /url: /
+      - heading "QA Playground" [level=1] [ref=e9]
+    - link "full courses" [ref=e11] [cursor=pointer]:
+      - /url: /#apps
+      - img [ref=e12]
+      - text: Apps
+    - link "Playwright logo View Test Suite" [ref=e23] [cursor=pointer]:
+      - /url: https://github.com/marko-simic/qa-playground-tests/blob/main/tests/verify-account.spec.js
+      - img "Playwright logo" [ref=e25]
+      - generic [ref=e26]: View Test Suite
+  - main [ref=e27]:
+    - generic [ref=e28]:
+      - heading "Verify Your Account" [level=2] [ref=e29]
+      - paragraph [ref=e30]:
+        - text: We emailed you the six digit code to cool_guy@email.com
+        - text: Enter the code below to confirm your email address.
+      - generic [ref=e31]:
+        - spinbutton [active] [ref=e32]
+        - spinbutton [ref=e33]
+        - spinbutton [ref=e34]
+        - spinbutton [ref=e35]
+        - spinbutton [ref=e36]
+        - spinbutton [ref=e37]
+      - generic [ref=e38]: The confirmation code is 9-9-9-9-9-9
+  - contentinfo [ref=e39]:
+    - generic [ref=e40]:
+      - text: All the credit for this mini-app goes to
+      - link "Brad Traversy" [ref=e41] [cursor=pointer]:
+        - /url: https://github.com/bradtraversy
