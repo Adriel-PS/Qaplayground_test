@@ -2,11 +2,23 @@
   "name": "qaplayground_test",
   "version": "1.0.0",
   "description": "inicial",
-  "main": "index.js",
-  "scripts": {},
   "keywords": [],
-  "author": "",
+  "homepage": "https://github.com/Adriel-PS/Qaplayground_test#readme",
+  "bugs": {
+    "url": "https://github.com/Adriel-PS/Qaplayground_test/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adriel-PS/Qaplayground_test.git"
+  },
   "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
   "devDependencies": {
     "@playwright/test": "^1.58.2",
     "@types/node": "^25.5.0"
